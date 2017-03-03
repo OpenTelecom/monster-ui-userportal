@@ -1,0 +1,152 @@
+.portal-view {
+    display: block;
+    width: 1040px;
+    margin: 20px auto;
+}
+.portal-view .left_part {
+    width: 638px;
+    float: left;
+}
+.portal-view .right_part {
+    width: 400px;
+    float: left;
+}
+.portal-view .bottom_part {
+    float: left;
+    width: 1000px;
+    padding: 20px;
+}
+.portal-view .bottom_part .contact_title {
+    float: left;
+}
+.portal-view .bottom_part .link-quickcall {
+    color: #22a5ff;
+    text-decoration: underline;
+}
+.portal-view .bottom_part #manual_number {
+    margin: 0 10px;
+    width: 140px;
+}
+.portal-view .block {
+    padding: 0 20px;
+}
+.portal-view .buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+.portal-view #settings-view form label {
+    width: 160px;
+    display: inline-block;
+    text-align: right;
+}
+.portal-view #settings-view form .clearfix {
+    margin-bottom: 5px;
+}
+.portal-view #settings-view form .input {
+    margin-left: 15px;
+    display: inline-block;
+}
+.portal-view #settings-view form .input input {
+    max-width: 150px;
+    margin-top: 4px;
+}
+.portal-view #settings-view form .input input[type=checkbox] {
+    margin-top: 9px;
+}
+.portal-view #settings-view form label .icon.phone {
+    height: 26px;
+    margin: -6px 5px 0 0;
+}
+.portal-view table.display td {
+    font-size: 11px;
+    padding: 1px;
+}
+.portal-view #voicemail-grid, .portal-view #user_cdr-grid {
+    width: 100% !important;
+}
+.portal-view .dataTables_filter input[type="text"] {
+    width: 120px;
+}
+.portal-view .dataTables_filter{
+    width: 163px;
+    margin-top: 5px;
+}
+.portal-view .dataTables_length{
+    width: 25%;
+}
+.portal-view .dataTables_info{
+    width: 35%;
+}
+.portal-view .dataTables_paginate{
+    width: 40%;
+}
+.portal-view #voicemail-grid_wrapper .actions_voicemail {
+    display: inline-block;
+}
+.portal-view #voicemail-grid_wrapper .actions_voicemail button {
+    margin-right: 2px;
+}
+.portal-view #user_cdr-grid_wrapper .date {
+    display: inline-block;
+    width: 400px;
+}
+.portal-view #user_cdr-grid_wrapper .date input {
+    width: 70px;
+    margin-bottom: 0;
+}
+.portal-view .dataTables_scrollHeadInner {
+    width: 100% !important;
+}
+.portal-view .dataTables_scrollHeadInner .display {
+    border-collapse: collapse;
+    width: 100% !important;
+}
+.portal-view .devices_wrapper .list_devices {
+    border: 1px solid #22a5ff;
+    padding: 10px 0;
+    margin: 10px 0;
+    max-height: 170px;
+    overflow: auto;
+}
+.portal-view .devices_wrapper .list_devices .device_line {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+}
+.portal-view .devices_wrapper .list_devices .device_line > * {
+    margin: 0 5px;
+    float: left;
+}
+.portal-view .devices_wrapper .list_devices .device_line .edit_icon {
+    background: url('images/edit_icon.png') no-repeat scroll center center transparent;
+    cursor: pointer;
+    height: 25px;
+    width: 20px;
+}
+.portal-view .devices_wrapper .list_devices .device_line .device_name {
+    font-weight: bold;
+    color: #22a5ff;
+}
+.portal-view .devices_wrapper .list_devices .device_line .device_name.registered {
+    color: #5AB05A;
+}
+.portal-view .devices_wrapper .list_devices .device_line .device_name.unregistered {
+    color: #DD272A;
+}
+.portal-view #call-forward-data {
+    border:1px solid #999;
+    padding-left: 15px;
+}
+.portal-view .monster-checkbox i {
+    margin-top: 5px;
+}
+.portal-view #voicemail-grid_wrapper [type="checkbox"] {
+    margin-top: 0;
+}
+.portal-view .help-contact-list {
+    margin: 25px 0;
+}
+.portal-view audio {
+    width: 230px;
+    height: 35px;
+}
